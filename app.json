@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "MyExpoApp",
+    "slug": "MyExpoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/white_logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#424769"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mahmoud02.MyExpoApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e995ae3e-06f8-4854-94a9-efa6327c4d5f"
+      }
+    }
+  }
+}
